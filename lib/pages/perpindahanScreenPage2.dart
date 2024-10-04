@@ -24,7 +24,7 @@ class _Perpindahanscreenpage2State extends State<Perpindahanscreenpage2> {
             ),
             OutlinedButton(
               style: OutlinedButton.styleFrom(
-                // backgroundColor: Colors.red
+                // backgroundColor: Colors.red,
                 side: BorderSide(width: 2, color: Colors.green),
               ),
                 onPressed: () {
