@@ -4,7 +4,8 @@ import 'package:id_camp/pages/dropDownButtonPage.dart';
 import 'package:id_camp/pages/iconButtonPage.dart';
 import 'package:id_camp/pages/inputWidgetPage.dart';
 import 'package:id_camp/pages/listViewMapPage.dart';
-import 'package:id_camp/pages/mainPages.dart';
+import 'package:id_camp/pages/mainPage.dart';
+import 'package:id_camp/pages/secondPage.dart';
 import 'package:id_camp/pages/perpindahanScreenPage.dart';
 import 'package:id_camp/pages/responsiveLayoutLayoutBuilder.dart';
 import 'package:id_camp/pages/responsiveLayoutMedQuery.dart';
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme()
       ),
-      home: const Responsivelayoutpractice()
+      home: Mainpage()
     );
   }
 }
