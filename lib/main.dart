@@ -5,6 +5,7 @@ import 'package:id_camp/pages/iconButtonPage.dart';
 import 'package:id_camp/pages/inputWidgetPage.dart';
 import 'package:id_camp/pages/listViewMapPage.dart';
 import 'package:id_camp/pages/mainPage.dart';
+import 'package:id_camp/pages/scrollBar.dart';
 import 'package:id_camp/pages/secondPage.dart';
 import 'package:id_camp/pages/perpindahanScreenPage.dart';
 import 'package:id_camp/pages/responsiveLayoutLayoutBuilder.dart';
@@ -31,7 +32,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme()
       ),
-      home: Mainpage()
+      home: ScrollbarExample(),
     );
   }
 }
